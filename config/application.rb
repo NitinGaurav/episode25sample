@@ -18,6 +18,5 @@ module Railwayapp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.hosts << "episode25sample-production-508e.up.railway.app"
   end
 end
