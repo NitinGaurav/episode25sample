@@ -84,6 +84,6 @@ test:
 production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
-  # database: railway
-  # username: postgres
-  # password: <%= ENV["PGPASSWORD"] %>
+  database: railway
+  username: postgres
+  password: <%= ENV["PGPASSWORD"] %>
