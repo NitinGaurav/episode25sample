@@ -3,7 +3,7 @@ require "active_support/core_ext/integer/time"
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   # Code is not reloaded between requests.
-  config.hosts << "https://episode25sample-production-7716.up.railway.app/"
+  config.hosts << "https://episode25sample-production-6ba7.up.railway.app/"
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
